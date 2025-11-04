@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  // No output: 'standalone' - let npm start work
 }
 
 module.exports = nextConfig
